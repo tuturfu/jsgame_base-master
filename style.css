@@ -1,0 +1,79 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/back.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/ground.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 48px;
+  height: 48px;
+
+  background: url("img/plane.png");
+  background-size: contain;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/eagle.png");
+  background-size: cover;
+}
+
+.eagle2 {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/eagle3.png");
+  background-size: cover;
+}
+
+h1 {
+  display: none;
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-size: 50px;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  padding: 30px;
+  border-radius: 40%;
+  margin-top: 20%;
+  margin-left: 45%;
+}
